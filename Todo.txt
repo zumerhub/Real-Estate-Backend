@@ -1,0 +1,17 @@
+ Real Estate App
+ 
+
+ // Create User APIS
+GET ('/api/users') 
+POST ('/api/user')
+
+// Customer APIs
+GET ('/api/Custo')
+
+
+        // Check if the estate is already booked by another user
+        // const existingBooking = await Booking.findOne({ estate: estateId });
+        // if (existingBooking) {
+           
+        //     return res.status(409).send({ message: 'Estate is already booked by another user', status: 409 });
+        // }
